@@ -400,7 +400,7 @@ int main(int argc, char* argv[])
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
-    window = glfwCreateWindow(640, 480, "Wave Simulation", NULL, NULL);
+    window = glfwCreateWindow(0, 640, 480, "Wave Simulation", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

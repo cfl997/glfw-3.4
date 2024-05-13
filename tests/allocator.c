@@ -118,7 +118,7 @@ int main(void)
     if (!CALL(glfwInit)())
         exit(EXIT_FAILURE);
 
-    GLFWwindow* window = CALL(glfwCreateWindow)(400, 400, "Custom allocator test", NULL, NULL);
+    GLFWwindow* window = CALL(glfwCreateWindow)(0, 400, 400, "Custom allocator test", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

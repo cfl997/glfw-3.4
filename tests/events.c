@@ -623,7 +623,7 @@ int main(int argc, char** argv)
                    width, height);
         }
 
-        slots[i].window = glfwCreateWindow(width, height, title, monitor, NULL);
+        slots[i].window = glfwCreateWindow(0, width, height, title, monitor, NULL);
         if (!slots[i].window)
         {
             free(slots);

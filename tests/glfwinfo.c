@@ -711,7 +711,7 @@ int main(int argc, char** argv)
 
     glfwWindowHint(GLFW_COCOA_GRAPHICS_SWITCHING, cocoa_graphics_switching);
 
-    GLFWwindow* window = glfwCreateWindow(200, 200, "Version", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(0, 200, 200, "Version", NULL, NULL);
     if (window)
     {
         glfwMakeContextCurrent(window);
@@ -895,7 +895,7 @@ int main(int argc, char** argv)
 
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
-    window = glfwCreateWindow(200, 200, "Version", NULL, NULL);
+    window = glfwCreateWindow(0, 200, 200, "Version", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

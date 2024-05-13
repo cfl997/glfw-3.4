@@ -85,7 +85,7 @@ int main(void)
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
-    window = glfwCreateWindow(640, 480, "Empty Event Test", NULL, NULL);
+    window = glfwCreateWindow(0, 640, 480, "Empty Event Test", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

@@ -205,7 +205,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_SCALE_TO_MONITOR, GLFW_TRUE);
     glfwWindowHint(GLFW_WIN32_KEYBOARD_MENU, GLFW_TRUE);
 
-    window = glfwCreateWindow(width, height, "Input lag test", monitor, NULL);
+    window = glfwCreateWindow(0, width, height, "Input lag test", monitor, NULL);
     if (!window)
     {
         glfwTerminate();

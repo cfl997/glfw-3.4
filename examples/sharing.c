@@ -87,7 +87,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
-    windows[0] = glfwCreateWindow(400, 400, "First", NULL, NULL);
+    windows[0] = glfwCreateWindow(0, 400, 400, "First", NULL, NULL);
     if (!windows[0])
     {
         glfwTerminate();
@@ -162,7 +162,7 @@ int main(int argc, char** argv)
     glVertexAttribPointer(vpos_location, 2, GL_FLOAT, GL_FALSE,
                           sizeof(vertices[0]), (void*) 0);
 
-    windows[1] = glfwCreateWindow(400, 400, "Second", NULL, windows[0]);
+    windows[1] = glfwCreateWindow(0, 400, 400, "Second", NULL, windows[0]);
     if (!windows[1])
     {
         glfwTerminate();

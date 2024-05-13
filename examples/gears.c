@@ -316,7 +316,7 @@ int main(int argc, char *argv[])
     glfwWindowHint(GLFW_DEPTH_BITS, 16);
     glfwWindowHint(GLFW_TRANSPARENT_FRAMEBUFFER, GLFW_TRUE);
 
-    window = glfwCreateWindow( 300, 300, "Gears", NULL, NULL );
+    window = glfwCreateWindow(0, 300, 300, "Gears", NULL, NULL );
     if (!window)
     {
         fprintf( stderr, "Failed to open GLFW window\n" );

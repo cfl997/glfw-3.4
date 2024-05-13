@@ -185,7 +185,7 @@ static GLFWwindow* create_window(GLFWmonitor* monitor)
         height = windowed_height;
     }
 
-    window = glfwCreateWindow(width, height, "Iconify", monitor, NULL);
+    window = glfwCreateWindow(0, width, height, "Iconify", monitor, NULL);
     if (!window)
     {
         glfwTerminate();

@@ -101,7 +101,7 @@ int main(void)
         glfwWindowHint(GLFW_POSITION_X, 200 + 250 * i);
         glfwWindowHint(GLFW_POSITION_Y, 200);
 
-        threads[i].window = glfwCreateWindow(200, 200,
+        threads[i].window = glfwCreateWindow(0, 200, 200,
                                              threads[i].title,
                                              NULL, NULL);
         if (!threads[i].window)

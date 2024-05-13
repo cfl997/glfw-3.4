@@ -64,7 +64,7 @@ int main(void)
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
-    window = glfwCreateWindow(640, 480, "Event Wait Timeout Test", NULL, NULL);
+    window = glfwCreateWindow(0, 640, 480, "Event Wait Timeout Test", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

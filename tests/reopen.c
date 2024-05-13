@@ -143,7 +143,7 @@ int main(int argc, char** argv)
 
         base = glfwGetTime();
 
-        window = glfwCreateWindow(width, height, "Window Re-opener", monitor, NULL);
+        window = glfwCreateWindow(0, width, height, "Window Re-opener", monitor, NULL);
         if (!window)
         {
             glfwTerminate();

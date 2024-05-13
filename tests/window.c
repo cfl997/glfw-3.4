@@ -72,7 +72,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 
-    GLFWwindow* window = glfwCreateWindow(600, 660, "Window Features", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(0, 600, 660, "Window Features", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

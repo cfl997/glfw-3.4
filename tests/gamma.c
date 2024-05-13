@@ -104,7 +104,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_SCALE_TO_MONITOR, GLFW_TRUE);
     glfwWindowHint(GLFW_WIN32_KEYBOARD_MENU, GLFW_TRUE);
 
-    window = glfwCreateWindow(800, 400, "Gamma Test", NULL, NULL);
+    window = glfwCreateWindow(0, 800, 400, "Gamma Test", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

@@ -1517,7 +1517,7 @@ static void demo_run(struct demo *demo) {
 static void demo_create_window(struct demo *demo) {
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 
-    demo->window = glfwCreateWindow(demo->width,
+    demo->window = glfwCreateWindow(0, demo->width,
                                     demo->height,
                                     APP_LONG_NAME,
                                     NULL,

@@ -49,7 +49,7 @@ int main(void)
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
-    window = glfwCreateWindow(400, 400, "English 日本語 русский язык 官話", NULL, NULL);
+    window = glfwCreateWindow(0, 400, 400, "English 日本語 русский язык 官話", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

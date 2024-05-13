@@ -133,7 +133,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
-    window = glfwCreateWindow(800, 400, "Aliasing Detector", NULL, NULL);
+    window = glfwCreateWindow(0, 800, 400, "Aliasing Detector", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

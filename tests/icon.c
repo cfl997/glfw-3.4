@@ -121,7 +121,7 @@ int main(int argc, char** argv)
         exit(EXIT_FAILURE);
     }
 
-    window = glfwCreateWindow(200, 200, "Window Icon", NULL, NULL);
+    window = glfwCreateWindow(0, 200, 200, "Window Icon", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

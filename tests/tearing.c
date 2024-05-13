@@ -169,7 +169,7 @@ int main(int argc, char** argv)
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
-    window = glfwCreateWindow(640, 480, "Tearing detector", NULL, NULL);
+    window = glfwCreateWindow(0, 640, 480, "Tearing detector", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

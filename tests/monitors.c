@@ -152,7 +152,7 @@ static void test_modes(GLFWmonitor* monitor)
                glfwGetMonitorName(monitor),
                format_mode(mode));
 
-        window = glfwCreateWindow(mode->width, mode->height,
+        window = glfwCreateWindow(0, mode->width, mode->height,
                                   "Video Mode Test",
                                   glfwGetPrimaryMonitor(),
                                   NULL);

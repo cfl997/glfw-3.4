@@ -497,7 +497,7 @@ int main(void)
     glfwWindowHint(GLFW_SAMPLES, 4);
 
     // Open OpenGL window
-    window = glfwCreateWindow(500, 500, "Split view demo", NULL, NULL);
+    window = glfwCreateWindow(0, 500, 500, "Split view demo", NULL, NULL);
     if (!window)
     {
         fprintf(stderr, "Failed to open GLFW window\n");
