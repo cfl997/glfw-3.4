@@ -78,8 +78,8 @@ static DWORD getWindowStyleParent(const _GLFWwindow* window)
             //if (window->resizable)
             //    style |= WS_MAXIMIZEBOX | WS_THICKFRAME;
         }
-        else
-            style |= WS_POPUP;
+        //else
+            //style |= WS_POPUP;
     }
 
     return style;
